@@ -56,23 +56,23 @@
 
 - 欢迎页
 
-  ![welcome](.\picture\welcome.png)
+  ![welcome](./picture/welcome.png)
 
 - 主页
 
-  ![homepage](.\picture\homepage.png)
+  ![homepage](./picture/homepage.png)
 
 - 聊天室（帖子）
 
-  ![post](.\picture\post.png)
+  ![post](./picture/post.png)
 
 - 个人主页
 
-  ![profile](.\picture\profile.png)
+  ![profile](./picture/profile.png)
 
 - 搜索话题
 
-  ![searchTopic](.\picture\searchTopic.png)
+  ![searchTopic](./picture/searchTopic.png)
 
 ## 运行环境：
 
@@ -86,3 +86,5 @@ django-cors-headers ==  4.6.0
 
 djangorestframework  ==3.15.2
 
+## 结语：
+欢迎大家体验、优化！
