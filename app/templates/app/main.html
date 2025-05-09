@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="shortcut icon" href="{% static 'images/Icon.png' %}" type="image/x-icon" />  
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <title>星露谷物语</title>
+</head>
+
+<body>
+
+    {% include 'app/navbar.html' %}
+    <img src="{% static 'images/Logo_ZH.png' %}" alt="Logo_ZH" id="Logo_ZH"/>
+    
+
+    {% block content %}
+
+
+    {% endblock %}
+
+    {% include 'app/footer.html' %}
+
+    <script src="{% static 'js/script.js' %}"></script>
+    
+    {% if messages %}
+    <!-- <ul class="messages"> -->
+        {% for message in messages %}
+        <!-- <li>{{ message }}</li> -->
+         <script>alert("{{ message }}");</script>
+        {% endfor %}
+    <!-- </ul> -->
+    {% endif %}
+</body>
+
+</html>
