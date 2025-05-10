@@ -47,7 +47,12 @@
   ```
 
 - 命令行运行项目
-
+  迁移数据库
+  ```bash
+  python manage.py makemigrations
+  python manage.py migrate
+  ```
+  启动
   ```bash
   python manage.py runserver
   ```
